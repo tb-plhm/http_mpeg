@@ -1,4 +1,7 @@
-FROM jrottenberg/ffmpeg:6.0-alpine AS ffmpeg
+# FROM jrottenberg/ffmpeg:6.0-alpine AS ffmpeg
+
+FROM adilinden/rpi-ffmpeg AS ffmpeg
+
 FROM node:20-alpine
 # ENV LD_LIBRARY_PATH=/usr/local/lib
 
